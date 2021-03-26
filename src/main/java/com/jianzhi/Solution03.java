@@ -5,7 +5,7 @@ import java.util.ArrayList;
  class ListNode {
     int val;
     ListNode next = null;
-    ListNode(int val) {
+    ListNode() {
         this.val = val;
     }
 }
