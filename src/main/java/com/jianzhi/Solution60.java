@@ -3,7 +3,6 @@ package com.jianzhi;
 import java.util.ArrayList;
 
 public class Solution60 {
-    public class Solution {
         ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
             ArrayList<ArrayList<Integer>> arrayList = new ArrayList<ArrayList<Integer>>();
             if (arrayList == null){
@@ -15,5 +14,4 @@ public class Solution60 {
             }
         return null;
         }
-    }
 }
