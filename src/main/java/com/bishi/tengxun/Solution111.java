@@ -1,12 +1,5 @@
-package com.tengxun;
+package com.bishi.tengxun;
 
-
-import java.time.temporal.Temporal;
-
-class ListNode {
-     int val;
-     ListNode next = null;
- }
 
 public class Solution111 {
     public ListNode solve (ListNode S) {

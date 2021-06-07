@@ -1,9 +1,5 @@
-package com.xiecheng;
-import java.io.*;
+package com.bishi.xiecheng;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 //1.    当输入非数字,输出：N
 //

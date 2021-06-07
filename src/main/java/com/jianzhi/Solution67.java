@@ -1,23 +1,11 @@
 package com.jianzhi;
 
-import java.util.Scanner;
+//给你一根长度为n的绳子，请把绳子剪成整数长的m段（m、n都是整数，n>1并且m>1，m<=n），
+//每段绳子的长度记为k[1],...,k[m]。请问k[1]x...xk[m]可能的最大乘积是多少？
+//例如，当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此时得到的最大乘积是18。
 
 public class Solution67 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int m = in.nextInt();
-        System.out.println(m);
-    }
-    public int cutRope(int target) {
-        int[] dp = new int[target + 1];
 
-        //绳子长度从2 ~ n
-        for(int i = 2;i <= target;i++){
-            for(int j = 1;j <= i - 1;j++){
-                //第一刀可以剪在1 ~ i - 1处
-                dp[i] = Math.max(dp[i],Math.max(j * (i - j),j * dp[i - j]));
-            }
-        }
-        return dp[target];
     }
 }
