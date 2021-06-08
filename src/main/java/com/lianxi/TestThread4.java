@@ -6,8 +6,6 @@ package com.lianxi;
 
 //发现问题：多个线程操作同一个资源的情况下，线程不安全，数据紊乱
 
-import javax.naming.Name;
-
 public class TestThread4 implements Runnable{
     private int ticketNum = 10;
 

@@ -1,5 +1,7 @@
 package com.bishi.xiecheng;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 //1.    当输入非数字,输出：N
 //

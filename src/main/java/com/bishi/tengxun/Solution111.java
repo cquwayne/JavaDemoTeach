@@ -1,6 +1,8 @@
 package com.bishi.tengxun;
 
 
+import com.example.javalearn.jianzhi.ListNode;
+
 public class Solution111 {
     public ListNode solve (ListNode S) {
 

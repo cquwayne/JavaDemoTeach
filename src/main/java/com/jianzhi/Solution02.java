@@ -1,7 +1,5 @@
 package com.jianzhi;
 
-import java.util.*;
-
 
 public class Solution02 {
     /**
