@@ -9,6 +9,7 @@ public class Test201 {
         System.out.println(" 8/4 = " + car.div());
     }
 }
+
 class Car{
     int i,j;
     Car(int a, int b){

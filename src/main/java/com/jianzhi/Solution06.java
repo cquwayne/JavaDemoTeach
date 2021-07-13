@@ -1,7 +1,5 @@
 package com.jianzhi;
 
-import java.util.ArrayList;
-
 public class Solution06 {
     public int minNumberInRotateArray(int [] array) {
         int m = 0;
