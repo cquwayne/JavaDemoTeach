@@ -1,4 +1,4 @@
-package com.bishi;
+package com.bishi.shixi;
 
 import com.sun.corba.se.impl.orbutil.graph.Graph;
 
